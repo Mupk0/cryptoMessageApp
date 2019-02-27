@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    section.bg-light.text-center
+      h1.p-3.mb-2.bg-info.text-white#title Service for send message
+      #formcontainer.container
+        .row
+          .col
+            h2.text-secondary Form for submit crypto messages
+            form#survey-form(action='/secrets', method='post')
+              .form-group
+                label(for='textForCrypt')
+                textarea#textForCrypt.form-control(rows='3', placeholder='Enter text here', name='text', required)
+              .form-group
+                label(for='key')
+                input#key.form-control(type='text', placeholder='Enter password', name='key', required)
+              button#submit.btn.btn-primary(type='submit' href="#") Save
+
+    script(src='/bower_components/jquery/dist/jquery.js')  
+    script(src='/bower_components/bootstrap/dist/js/bootstrap.js')

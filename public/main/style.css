@@ -1,0 +1,35 @@
+﻿body {
+font-family: Georgia;
+margin: 0 auto;
+max-width: 800px;
+padding-top: 32px;
+margin-bottom: 10px;
+
+}
+#submit {
+    margin-bottom: 20px;
+}
+
+p {
+margin-bottom: 10px;
+margin-top: 0px;
+}
+
+h1 {
+border-bottom: 1px dotted grey;
+}
+
+.bg {
+    background: url(/404.png) no-repeat center center fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#linkText {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #17a2b8;
+}
