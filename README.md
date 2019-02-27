@@ -1,7 +1,6 @@
 # Application for the exchange of secure messages
 
-Решение тестового задания
-
+Test solution
 
 ## Technologies
 * Node.js
