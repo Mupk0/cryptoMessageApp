@@ -17,7 +17,7 @@
   ],
   "author": "Mupk0 <pkrstl@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/Mupk0/??#readme",
+  "homepage": "https://github.com/Mupk0/cryptoMessageApp#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "bootstrap": "^4.3.1",
