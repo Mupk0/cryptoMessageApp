@@ -1,13 +1,21 @@
-﻿body {
+body {
 font-family: Georgia;
 margin: 0 auto;
-max-width: 800px;
+max-width: 600px;
+max-height: 900px;
 padding-top: 32px;
 margin-bottom: 10px;
-
+background-image: url(/bg.png);
+height: 50%;
+background-repeat: no-repeat;
 }
+
+section {
+opacity:0.9;
+}
+
 #submit {
-    margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 p {
@@ -15,8 +23,9 @@ margin-bottom: 10px;
 margin-top: 0px;
 }
 
+
 h1 {
-border-bottom: 1px dotted grey;
+border-bottom: 1px solid grey;
 }
 
 .bg {
