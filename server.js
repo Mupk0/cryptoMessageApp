@@ -1,16 +1,14 @@
+const db = require('./db');
+const recordsController = require('./controllers/records');
 const express = require('express');
 const bodyParser = require('body-parser');
 const parseError = require('parse-error');
 const pug = require('pug');
 const methodOverride = require('method-override');
-const db = require('./db');
-const recordsController = require('./controllers/records');
-
-const router = express.Router();
-const path = `${__dirname}/views/`;
 
 const app = express();
 
+const path = `${__dirname}/views/`;
 app.engine('pug', require('pug').__express);
 app.set('view engine', 'pug');
 
@@ -33,6 +31,7 @@ app.post('/secrets', recordsController.create);
 app.delete('/secrets/:tag', recordsController.delete);
 
 app.get('/allrecords', recordsController.all);
+
 
 
 db.connect('mongodb://localhost:27017/myapi', (err) => {
