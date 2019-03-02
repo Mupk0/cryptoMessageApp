@@ -8,7 +8,7 @@ block content
           form(action='/secrets/' +link, method='post')
             .form-group
               label(for='key') 
-              input#key.form-control(type='text', placeholder='Enter password', name='key', required)
+              input#key.form-control(type='password', placeholder='Enter password', name='key', required)
             button#submit.btn.btn-primary(type='submit' href='#') Check
           
     script(src='/bower_components/jquery/dist/jquery.js')  

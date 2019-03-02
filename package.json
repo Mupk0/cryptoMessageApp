@@ -1,6 +1,6 @@
 {
   "name": "crypto_message_app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "api for encrypting text and submit to another user",
   "main": "server.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "license": "MIT",
   "homepage": "https://github.com/Mupk0/cryptoMessageApp#readme",
   "dependencies": {
+    "bcrypt": "^3.0.4",
     "body-parser": "^1.18.3",
     "bootstrap": "^4.3.1",
     "express": "^4.16.4",

@@ -13,9 +13,10 @@ Test solution
 * NanoID
 * Simplecrypt
 * Parse-error
+* Bcrypt
 
 ### Version
-1.0.0
+1.0.1
 
 ## Usage
 
