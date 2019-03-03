@@ -48,7 +48,7 @@ exports.decryptText = function (req, res) {
      }
       const sc = simplecrypt({password: (req.body.key)});
       const textForDecrypt = sc.decrypt(doc["text"]);
-      res.render('succes', {
+      res.render('success', {
         decryptLInk: `${textForDecrypt}`,
         link : `${req.params.tag}`
      })
